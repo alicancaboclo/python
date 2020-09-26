@@ -1,0 +1,16 @@
+from OO.carro import Clientes,Endereco
+
+cliente1= Clientes('aliCan caboclo da silva',31)
+cliente1.inserir_endereco(' Eecife','PE')
+print('Nome:',cliente1.nome,'Idade:',cliente1.idade)
+(cliente1.list_endereco())
+print()
+cliente2 = Clientes('edite maria da conceição',64)
+cliente2.inserir_endereco('Agreste','PE')
+print('Nome:',cliente2.nome,'Idade:',cliente2.idade)
+cliente2.list_endereco ()
+print()
+cliente3 = Clientes('Rogerio Caboclo da Silva',38)
+cliente3.inserir_endereco('Recife','PE')
+print('Nome:',cliente3.nome,'Idade:',cliente3.idade)
+cliente3.list_endereco ()
